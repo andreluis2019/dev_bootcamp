@@ -70,8 +70,8 @@ public class Pessoa {
     }
 
     public void dadosPessoa(){
-        System.out.println("Dados Pessoais: " + nome + " " + sobrenome + "\nCpf: " + cpf + "\nEmail: " + email +
-                "\nData de Nasc: " + dataNascimento);
+        System.out.println("DADOS PESSOAIS: \n" + "Nome: " + nome + " " + sobrenome + "\nCpf: " + cpf + "\nEmail: " +
+                email + "\nData de Nasc: " + dataNascimento);
 
         for (Endereco endereco : enderecos) {
             System.out.println(endereco.toString());
