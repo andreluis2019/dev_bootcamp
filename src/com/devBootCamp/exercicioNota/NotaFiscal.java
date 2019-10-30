@@ -80,8 +80,13 @@ public class NotaFiscal {
         System.out.println("Nro Nota: " + numero);
         System.out.println("Cliente: " + cliente.getNome());
         System.out.println("Endereço Entrega: ");
-        System.out.println("Rua: " + enderecoEntrega.getRua() + ", Número: " + enderecoEntrega.getNumero() +
-                " - Bairro: " + enderecoEntrega.getBairro());
+        if (enderecoEntrega != null) {
+            System.out.println("Rua: " + enderecoEntrega.getRua() + ", Número: " + enderecoEntrega.getNumero() +
+                    " - Bairro: " + enderecoEntrega.getBairro());
+        } else {
+            System.out.println("Endereço de entrega não informado");
+        }
+
         System.out.println("Itens Nota Fiscal:");
         for (NotaFiscalItem notaFiscalItem : listaItensNota) {
             System.out.println("-----------------------");
