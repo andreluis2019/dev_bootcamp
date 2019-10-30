@@ -55,7 +55,7 @@ public class Elevador {
     public void sai() {
         if(pessoasPresentes > 0) {
             pessoasPresentes -= 1;
-            System.out.println("Desceu 1, Pessoas presentes: " + pessoasPresentes);
+            System.out.println("Desceu 1 pessoa, Pessoas presentes: " + pessoasPresentes);
         } else {
             System.out.println("Elevador vazio.");
         }
