@@ -9,7 +9,7 @@ public class Main {
         Endereco endereco1 = new Endereco(1, "Rua X", "123", "Bairro X");
         endereco1.setTipoEndereco(TipoEndereco.COBRANCA);
         Endereco endereco2 = new Endereco(2, "Rua Z", "321", "Bairro Z");
-        endereco2.setTipoEndereco(TipoEndereco.RESIDENCIAL);
+        endereco2.setTipoEndereco(TipoEndereco.ENTREGA);
 
         List<Endereco> enderecos = new ArrayList<>();
         enderecos.add(endereco1);
