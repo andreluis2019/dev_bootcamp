@@ -21,7 +21,5 @@ public class TestaVoo {
 
         voo1.ocupaAssento(3);
 
-
-
     }
 }
