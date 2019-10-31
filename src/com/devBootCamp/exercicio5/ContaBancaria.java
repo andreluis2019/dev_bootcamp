@@ -2,7 +2,7 @@ package com.devBootCamp.exercicio5;
 
 public abstract class ContaBancaria {
     private String nroConta;
-    protected Double saldo = 0D;
+    protected Double saldo;
 
     public String getNroConta() {
         return nroConta;
