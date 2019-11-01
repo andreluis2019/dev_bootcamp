@@ -10,6 +10,6 @@ public class Cofins implements Imposto {
 
     @Override
     public Double calcularImposto() {
-        return null;
+        return valorBase * 0.10;
     }
 }
