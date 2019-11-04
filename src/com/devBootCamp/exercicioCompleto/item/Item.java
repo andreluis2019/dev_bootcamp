@@ -1,4 +1,4 @@
-package com.devBootCamp.exercicioCompleto;
+package com.devBootCamp.exercicioCompleto.item;
 
 import java.math.BigDecimal;
 
